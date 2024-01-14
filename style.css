@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.Heading{
+    height: 3vw;
+    width: 100vw;
+    background: linear-gradient(to right , black , red);
+    color: white;
+}
+.Heading p{
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+}
+.nav{
+    height: 5vw;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+
+}
+.nav li{
+    list-style: none;
+    padding: 30px;
+    font-size: 20px;
+}
+.section{
+    /* height: 35vw;
+    width: 100vw; */
+    /* background-image: url(https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg);
+    background-repeat: no-repeat;
+    background-position: centers;
+    background-size: cover;
+    color: white;
+    font: larger; */
+    padding: 6% 10%;
+    font-size: larger;
+    width: 100vw;
+    background-image: url(https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding:15%;
+    padding-right: 25%;
+}
+.section > header {
+    height: 40%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2%;
+    margin-left: 14%;
+    display: block;
+
+}
+.main{
+    height: 23vw;
+    width: 100vw;
+    background-color: rgb(218, 227, 227);
+     padding: 50px;
+     padding-left: 200px;
+}
+
+.submain{
+    height: 16vw;
+    width: 90%;
+    background-color: rgb(126, 138, 138);
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+   
+}
+.submain h1{
+    margin-left: 40px;
+}
+.cart1{
+    height: 12vw;
+    width: 12vw;
+    background-color: rgb(90, 86, 86);
+    background-image: url;
+    color: white;
+    padding: 3px;
+    margin-top: 35px;
+}
+.cart2{
+    height: 12vw;
+    width: 12vw;
+    background-color: rgb(90, 86, 86);
+    color: white;
+    padding: 3px;
+    margin-top: 35px;
+}
+.cart3{
+    height: 12vw;
+    width: 12vw;
+    background-color: rgb(90, 86, 86);
+    color: white;
+    padding: 3px;
+    margin-top: 35px;
+}
+.footer{
+    height: 50vw;
+    width: 100vw;
+    background:linear-gradient(to right, rgb(105, 102, 102) , rgb(6, 6, 6));
+    padding-top: 120px;
+    padding-left: 150px;
+}
+.subfooter{
+    height: 35vw;
+    width: 90%;
+    background:linear-gradient(to right, rgb(4, 4, 4) , rgb(220, 24, 24));
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.first_subfooter{
+    height: 10vw;
+    width: 25vw;
+    margin-top: 80px;
+    font-size: larger;
+}
+.second_subfooter > img {
+    margin-top: 100px;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px white ;
+    transition: transform 0.3s;
+   
+}
+.second_subfooter{
+transition: transform 0.3s;
+box-shadow: 0p 0p 30px white;
+}
+
+.second_subfooter:hover{
+    transform: scale(1.2);
+}
